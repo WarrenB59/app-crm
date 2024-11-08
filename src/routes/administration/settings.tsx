@@ -177,7 +177,7 @@ const UsersTable = () => {
           defaultFilteredValue={getDefaultFilter(
             "jobTitle",
             filters,
-            "contains",
+            "contains"
           )}
           filterIcon={<SearchOutlined />}
           filterDropdown={(props) => (
